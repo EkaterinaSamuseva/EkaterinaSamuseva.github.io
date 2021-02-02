@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Quicksand';
+    color: beige;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+#date {
+    padding-bottom: 10px;
+}
+
+.hrr {
+    margin-top: 30px;
+    height: 1px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+    width: 40%;
+
+    margin-left: 0;
+}
+
+#goal {
+    margin-top: 30px;
+
+
+}
+
+.background-morning {
+    background: url(./img/morning2.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+}
+
+.background-noon {
+    background: url(./img/morning2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    color: black;
+    background-size: cover;
+
+}
+
+.background-evening {
+    background: url(./img/evening.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+}
+
+#quote {
+    padding-top: 15px;
+}
+
+#greeting-dynamic,
+#goal-dynamic {
+    margin-left: 5px;
+
+}
+
+#greeting-dynamic:focus,
+#goal-dynamic:focus {
+    outline: none;
+}
